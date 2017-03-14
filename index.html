@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- Script -->
+    <script src="js/script.js"></script>
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,600,700,900" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+
+    <!-- Font-Awesome -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <title>Personal Trainer</title>
+  </head>
+  <body>
+    <!-- Beginning of the website -->
+    <!-- NAVBAR -->
+    <ul class="topnav" id="myTopnav">
+      <img src="images/sdl_logo.png" id="brand">
+      <li class="icon">
+        <a href="javascript:void(0);" style="font-size:1.85em;" onclick="myFunction()">☰</a>
+      </li>
+      <li><a class="active" href="#home">Home</a></li>
+      <li><a href="#news">News</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#about">About</a></li>
+
+    </ul>
+  <!-- ========== END OF NAVBAR ================================== -->
+  <!-- ======== START OF SERVICES ================================= -->
+    <div class="imageContainer" id="container_1">
+      <div class="textBox" id="textBox1">
+        <h1>BURAK KIRIMGIRAY</h1>
+        <div class="subtitle">
+          PERSONAL TRAINER
+        </div>
+      </div>
+      <img id="mainImage" src="images/fitness_3_silueta.jpg" alt="">
+    </div>
+
+    <div class="container-fluid" id="servicesContainer">
+
+      <div class="row icons">
+
+        <div class="services col-md-4 col-sm-4 col-xs-12">
+          <i class="fa fa-handshake-o" aria-hidden="true"></i>
+          <h2>Best Price</h2>
+          <p>We guarantee that you will get what you pay for. Professional service and quality.</p>
+        </div>
+
+        <div class="services col-md-4 col-sm-4 col-xs-12">
+          <i class="fa fa-heartbeat" aria-hidden="true"></i>
+          <h2>Feel healthy</h2>
+          <p>Get ready to get the body you want and feel healthier than ever. We will teach how to get exactly what you need.</p>
+        </div>
+
+
+        <div class="services col-md-4 col-sm-4 col-xs-12">
+          <i class="fa fa-address-book-o" aria-hidden="true"></i>
+          <h2>Personalized Service</h2>
+          <p>Each person is different, we will make sure that you get the best routine for your body and condition.</p>
+        </div>
+
+      </div>
+
+
+      <div class="row">
+        <div class="col-md-12 col-sm-12 col-xs-12" id="servicesDescription">
+          <h1>How it works</h1>
+          <p>
+            Each workout is organized and planned prior to your appointment, so that when you arrive at the studio you can start working out right away by warming up and stretching in a private fitness suite.
+            <br/><br/>
+            We don’t waste time figuring out what to do next or waiting for someone to finish using an exercise machine. The entire workout session is organized from start to finish so that your time at the studio is focused on you and achieving your specific results.
+            <br/><br/>
+            You come in, we focus on your workout, and you leave feeling good about your accomplishments after experiencing an effective and efficient workout.
+          </p>
+
+          <!-- <h1>Coaching</h1>
+          <p>As your coach, we ensure that you execute each exercise properly to maximize results and minimize injury. We also ensure that you do the right amount of each exercise — too little won’t bring about change, and too much will slow down your rate of improvement.
+          </p> -->
+
+        </div>
+      </div>
+      <!-- <i class="fa fa-male" aria-hidden="true"></i>
+      <i class="fa fa-female" aria-hidden="true"></i> -->
+
+    </div>
+<!--=========================== END OF SERVICES ============================-->
+<!--=================== START OF CONTACT US==================================== -->
+    <div class="container-fluid" id="contactUs">
+
+      <h1 id="contactTitle">CONTACT ME </h1>
+
+      <div class="row" id='formContainer'>
+        <div class="col-md-12 col-sm-12 col-xs-12">
+
+          <form class="" action="index.html" method="post">
+            <div class="name">
+              <i class="fa fa-users input-icon" aria-hidden="true"></i>
+              <input type="text" name="" placeholder="Name" value="">
+            </div>
+
+            <div class="email">
+              <i class="fa fa-envelope input-icon" aria-hidden="true"></i>
+              <input type="text" name="" placeholder="Email" value="">
+            </div>
+
+            <textarea name="name" rows="4" placeholder="Message" cols="80"></textarea>
+
+            <input type="submit" target="#" id="submitButton" value="SEND">
+          </form>
+
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
